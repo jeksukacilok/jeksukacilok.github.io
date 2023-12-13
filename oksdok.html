@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kuisioner Balikan</title>
+</head>
+<body>
+  <h1>Kuisioner Balikan</h1>
+  <form action="proses_kuisioner.php" method="post">
+    <p>1. Apakah Anda merasa nyaman berbicara dengan saya?</p>
+    <label for="nyaman">Ya</label>
+    <input type="radio" name="nyaman" value="ya" required>
+    <label for="nyaman">Tidak</label>
+    <input type="radio" name="nyaman" value="tidak">
+    
+    <p>2. Apakah Anda ingin melanjutkan komunikasi dan mempertimbangkan untuk balikan?</p>
+    <label for="ingin_balikan">Ya</label>
+    <input type="radio" name="ingin_balikan" value="ya" required>
+    <label for="ingin_balikan">Tidak</label>
+    <input type="radio" name="ingin_balikan" value="tidak">
+    
+    <p>3. Apa yang Anda nilai dari hubungan kita sebelumnya?</p>
+    <textarea name="nilai_hubungan" rows="4" cols="50" required></textarea>
+    
+    <!-- Tambahkan pertanyaan-pertanyaan lain sesuai kebutuhan -->
+    
+    <br>
+    <input type="submit" value="Kirim">
+  </form>
+</body>
+</html>

@@ -1,0 +1,107 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    background-color: darkseagreen;
+    margin: -8px;
+}
+
+
+.container {
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+
+header > img {
+    width: 160px;
+    
+    
+
+}
+
+.head {
+    height: 85px;
+    align-items: center;
+    box-shadow: 10px 20px 27px #518d52;
+    position: sticky;
+    top: 0;
+    
+    background-color:darkslategrey; /* Warna latar belakang menu */
+    color: #135314; /* Warna teks menu */
+   
+}
+
+nav ul {
+    
+    list-style:none; /* Menghilangkan tanda bullet pada daftar */
+    display: flex; /* Mengatur menu secara horizontal */
+    justify-content: space-around; /* Mengatur jarak antara tautan */
+   
+}
+
+nav li {
+    margin: -80px; /* Jarak antara tautan */
+    font-size: 20px;
+    padding: 8px;
+}
+
+nav a {
+    text-decoration: none; /* Menghapus garis bawah pada tautan */
+    color: #fff; /* Warna teks tautan */
+    padding: 20px;
+}
+
+.Hire {
+    
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: beige;
+    border-radius: 12px;
+    padding: 12px 10px;
+    border: none;
+}
+
+.Download    {
+    
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: beige;
+    border-radius: 12px;
+    padding: 12px 10px;
+    border: none;
+}
+
+#gambar {
+    position:fixed;
+    top: 10px; /* Ubah angka ini sesuai dengan jarak dari atas */
+    right: 20px; /* Ubah angka ini sesuai dengan jarak dari kanan */
+    width: 150px; /* Sesuaikan ukuran gambar */
+    
+}
+
+section > div > h3{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+    
+section > div {
+    font-size: 20px;
+    align-content: flex-end;
+    justify-content: center;
+    padding: 30px 30%;
+    
+}   
+
+.project {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+
+}
+

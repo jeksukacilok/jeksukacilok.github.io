@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Official website Mohammad Zaidan</title>
+        <Link rel="stylesheet" type="text/css" href="css.css">
+    </head>
+  <body>          
+       <header class="head">
+        <img src="laslsl-removebg-preview (1).png">
+           <nav>
+                <ul >
+                   <li><a href="#hero">Home</a></li>
+                   <li><a href="#About">About</a></li>
+                   <li><a href="#Project">Project</a></li>
+                   <li><a href="#Contact.html">Contact</a></li>
+                </ul>     
+            </nav> 
+        <script>
+          document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+              e.preventDefault();
+          
+              const targetId = this.getAttribute('href').substring(1);
+              const targetElement = document.getElementById(targetId);
+          
+              if (targetElement) {
+                targetElement.scrollIntoView({ behavior: 'smooth' });
+              }
+            });
+          });
+       </script>      
+     </header>
+    <div class ="container" id="hero">
+        <div>
+          <h1 class="name"> Hi, I am</h1>
+          <h1>Mohammad Zaidan
+          </h1>
+          <h3>Front End Developer</h3>
+          <h4>I am a student from Telkom Vocational School, and this is my portfolio website. If you are interested in hiring me or just want to see my CV, click the button below</h4>
+          <button class="Hire">Hire Me</button>
+          <button class="Download">Download CV</button>
+        </div>
+        <div class="imghero">
+          <img src="foto portofolio.png" width="200px" height="300px">
+        </div>
+    </div>
+<hr>
+
+<!--About Section-->
+<section id="About">
+  <div class=" About1">
+     <h3 align="center"></i>About me</i></h3>
+      <P style="line-height: 1.5;">
+        
+        Saya adalah seorang individu yang memiliki hobi bermain basket. Dalam permainan ini, saya menemukan kebahagiaan dan tantangan yang luar biasa. Meskipun tinggi badan saya mencapai 170 cm dan berat saya 72 kg, saya selalu bersemangat untuk berpartisipasi dalam olahraga ini dan terus meningkatkan keterampilan saya.<br/>
+        <br>
+        Selain dari dunia basket, kebahagiaan saya juga ditemukan dalam hubungan saya. Saya memiliki pasangan yang bernama Karin, dan bersamanya, kami berbagi banyak momen indah dalam hidup. Hubungan kami penuh dengan cinta, dukungan, dan saling pengertian.<br/>
+        <br>
+        Cita-cita saya adalah menjadi orang sukses dan memberikan kebahagiaan kepada orang-orang di sekitar saya, termasuk Karin. Saya percaya bahwa dengan kerja keras dan tekad, saya dapat mencapai impian ini. Salah satu simbol kesuksesan bagi saya adalah memiliki mobil BMW F30. Ini adalah salah satu tujuan saya dalam hidup, dan saya berharap suatu hari nanti saya dapat mewujudkannya.<br/>
+        <br>
+        Dalam hidup, saya selalu berusaha untuk menjadi pribadi yang penuh semangat dan optimis, siap menghadapi tantangan, dan menjalani hidup dengan sukacita.  <br />
+      </p>
+  </div>
+</section>
+  <!--end about section-->
+<section id="Project">
+  <div class="Project1">
+    <h3 align="center"></i>Project</i></h3>
+      <img src="https://blog.xsis.academy/wp-content/uploads/2021/03/1.png">
+        
+      
+      
+
+  </div>
+</section>
+
+     </body>
